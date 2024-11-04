@@ -8,11 +8,11 @@ import Footer from "./component/Footer";
 export default function Home() {
   return (
     <>
-    <div><Navbar /></div>
-    <div><HeroSection /></div>
-    <div><RecentPost /></div>
-    <div><FeaturedWorks /></div>
-    <div><Footer /></div>
+    <div className="max-w-screen"><Navbar /></div>
+    <div className="max-w-screen"><HeroSection /></div>
+    <div className="max-w-screen"><RecentPost /></div>
+    <div className="max-w-screen"><FeaturedWorks /></div>
+    <div className="max-w-screen"><Footer /></div>
     </>
   );
 }
