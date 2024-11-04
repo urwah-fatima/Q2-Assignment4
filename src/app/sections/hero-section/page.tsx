@@ -43,4 +43,6 @@ const HeroSection = () => {
 };
 
 // Export the HeroSection component
+
 export default HeroSection;
+
