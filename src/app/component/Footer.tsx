@@ -17,13 +17,13 @@ const Footer = () => {
             {/* Social media icons container */}
             <div className="flex flex-row justify-center gap-5">
                 {/* Facebook icon */}
-                <img src={footerImages.fb} alt="fb" height="20px" width="20px"/>
+                <Image src={footerImages.fb} alt="fb" className="h-20 w-20"/>
                 {/* Twitter icon */}
-                <img src={footerImages.twitter} alt="twitter" height="20px" width="20px"/>
+                <Image src={footerImages.twitter} alt="twitter" className="h-20 w-20"/>
                 {/* Instagram icon */}
-                <img src={footerImages.instagram} alt="instagram" height="20px" width="20px"/>
+                <Image src={footerImages.instagram} alt="instagram" className="h-20 w-20"/>
                 {/* LinkedIn icon */}
-                <img src={footerImages.linkedin} alt="linkedin" height="20px" width="20px"/>
+                <Image src={footerImages.linkedin} alt="linkedin" className="h-20 w-20"/>
             </div>
             {/* Copyright text container */}
             <div>

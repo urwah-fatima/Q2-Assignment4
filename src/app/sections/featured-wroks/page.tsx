@@ -25,13 +25,13 @@ const FeaturedWorks = () => {
 
         {/* Second featured work item */}
         <div className="flex flex-row ml[492.54px] p-5">
-          <img src={featuredWorksImges.img2} alt="featured image" />
+          <Image src={featuredWorksImges.img2} alt="featured image" />
           <FeaturedWorksBoxes />
         </div>
 
         {/* Third featured work item */}
         <div className="flex flex-row ml[492.54px] p-5">
-          <img src={featuredWorksImges.img3} alt="featured image" />
+          <Image src={featuredWorksImges.img3} alt="featured image" />
           <FeaturedWorksBoxes />
         </div>
       </div>

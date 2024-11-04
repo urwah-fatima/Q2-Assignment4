@@ -32,7 +32,7 @@ const HeroSection = () => {
       {/* Right side image container */}
       <div>
         {/* Hero image */}
-        <img
+        <Image
           className=' h-auto max-w-full inset-0 rounded-full'
           src={heroContent.image}
           alt="Picture of the author" 
