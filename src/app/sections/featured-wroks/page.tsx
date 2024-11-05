@@ -18,7 +18,7 @@ const FeaturedWorks = () => {
         {/* First featured work item */}
         <div className="flex flex-row ml[492.54px] p-5">
           {/* Featured work image */}
-          <img src={featuredWorksImges.img1} alt="featured image" />
+          <Image src={featuredWorksImges.img1} alt="featured image" />
           {/* Content box for the featured work */}
           <FeaturedWorksBoxes />
         </div>
